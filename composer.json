@@ -1,12 +1,13 @@
 {
-  "name": "joking/container",
+  "name": "joking/router",
   "description": "一种简单的路由方式",
   "minimum-stability": "stable",
   "version": "v1.0",
   "license": "joking",
   "require": {
     "joking/annotation": "dev-master",
-    "nikic/fast-route": "v1.2.0"
+    "nikic/fast-route": "v1.2.0",
+    "php": ">=7.1.6"
   },
   "autoload": {
     "psr-4": {
