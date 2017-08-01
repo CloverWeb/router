@@ -1,0 +1,16 @@
+{
+  "name": "joking/container",
+  "description": "一种简单的路由方式",
+  "minimum-stability": "stable",
+  "version": "v1.0",
+  "license": "joking",
+  "require": {
+    "joking/annotation": "dev-master",
+    "nikic/fast-route": "v1.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Joking\\Route\\": "src/"
+    }
+  }
+}
